@@ -8,5 +8,6 @@
     <string name="first">First Activity(not null)</string>
     <string name="second">Second Activity</string>
     <string name="fourth">Fourth Activity</string>
-    <string name="to_sixt">To six Activity</string>
+    <string name="to_six">To six Activity</string>
+    <string name="to_fifth">To fift Activity</string>
 </resources>

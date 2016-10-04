@@ -12,6 +12,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/toSixt"
-        android:text="@string/to_sixt"/>
+        android:id="@+id/toSix"
+        android:text="@string/to_six"/>
 </RelativeLayout>
