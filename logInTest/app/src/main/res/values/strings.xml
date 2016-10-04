@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">logInTest</string>
+    <string name="null_activity">Go first</string>
+    <string name="view_text">Using this activity as 0</string>
+    <string name="to_second">To second button</string>
+    <string name="to_third">To third Activity</string>
 </resources>
