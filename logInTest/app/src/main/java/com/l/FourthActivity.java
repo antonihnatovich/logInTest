@@ -8,18 +8,17 @@ import android.widget.Button;
 
 import com.l.logintest.R;
 
-public class FirstActivity extends AppCompatActivity {
-
-    Button toSecond;
+public class FourthActivity extends AppCompatActivity {
+    Button toFith;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_first);
-        toSecond = (Button) findViewById(R.id.toSecond);
-        toSecond.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_fourth);
+        toFith = (Button)findViewById(R.id.toFifth);
+        toFith.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FirstActivity.this, SecondActivity.class));
+                startActivity(new Intent(FourthActivity.this, FifthActivity.class));
             }
         });
     }

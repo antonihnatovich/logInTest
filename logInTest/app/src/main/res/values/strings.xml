@@ -4,4 +4,9 @@
     <string name="view_text">Using this activity as 0</string>
     <string name="to_second">To second button</string>
     <string name="to_third">To third Activity</string>
+    <string name="to_fourth">To fourth Activity</string>
+    <string name="first">First Activity(not null)</string>
+    <string name="second">Second Activity</string>
+    <string name="fourth">Fourth Activity</string>
+    <string name="to_sixt">To six Activity</string>
 </resources>
