@@ -21,7 +21,7 @@ public class FifthActivity extends AppCompatActivity {
         toSix.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FifthActivity.this, SixActivity.class).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                startActivity(new Intent(FifthActivity.this, SixActivity.class).setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK));
                 sharedPreferences.edit().putBoolean("wasInSix", true).commit();
             }
         });
